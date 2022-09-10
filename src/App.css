@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/watercolor-back-to-school-background-with-white-space_52683-41450.jpg?w=2000');
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #adadc9;
+}
+
+.navbar__links Button {
+    text-decoration: none;
+}
+
+.mainButtons Button {
+    padding: 20px 40px;
+    font-size: 24px;
+}
+.mainButtons {
+    margin-top: 20px;
+}
