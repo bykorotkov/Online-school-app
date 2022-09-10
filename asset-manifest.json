@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/online-school-app/static/css/main.37af84d8.css",
+    "main.js": "/online-school-app/static/js/main.a1134238.js",
+    "index.html": "/online-school-app/index.html",
+    "main.37af84d8.css.map": "/online-school-app/static/css/main.37af84d8.css.map",
+    "main.a1134238.js.map": "/online-school-app/static/js/main.a1134238.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37af84d8.css",
+    "static/js/main.a1134238.js"
+  ]
+}
