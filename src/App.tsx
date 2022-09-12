@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/UI/Navbar'
 import AppRouter from './components/UI/AppRouter'
@@ -17,10 +17,10 @@ const App: FC = () => {
   }, [])
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <AppRouter />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

@@ -19,7 +19,7 @@ export const fetchUsers = (page = 1, limit = 10) => {
         } catch (e) {
             dispatch({
                 type: UserActionTypes.FETCH_USERS_ERROR,
-                payload: 'Произошла ошибка при загрузке пользователей',
+                payload: 'Loading error. Please try again later',
             })
         }
     }
